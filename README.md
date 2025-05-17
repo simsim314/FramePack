@@ -1,3 +1,38 @@
+Custom FramePack version. 
+
+
+Run 
+
+[FramePack_v0.1.ipynb](/FramePack_v0.1.ipynb)
+
+-------
+
+Run inside runpods.io 
+
+PodName: 
+Better PyTorch 2.6.0 CUDA12.4
+
+-----
+Custom settings: 
+
+Volume Disk~ 60GB
+~40GB for the model 
+
+Expose HTTP Ports 
+7777, 7860
+
+(when running demo_gradio.py connect to 7860 port)
+
+
+-----
+
+Run setting: 
+Runs well with 8 diffusion steps! 
+Has optimization to generate video once in Nth frame, balancing performance and real time feedback. 
+Can offload text_encoders (has flag in UI) and minimize VRAM while rest of the model is on GPU. 
+
+--------------------
+
 <p align="center">
     <img src="https://github.com/user-attachments/assets/2cc030b4-87e1-40a0-b5bf-1b7d6b62820b" width="300">
 </p>
